@@ -1,0 +1,8 @@
+@import "./vars.css";
+
+.hero-video-container {
+    max-width: 1500px;
+    width: 100%;
+    padding: 25px;
+    margin: 10px;
+}
