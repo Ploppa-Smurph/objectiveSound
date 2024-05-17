@@ -113,7 +113,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  flex-basis: 50%;
+  flex-basis: content;
   align-items: center;
 }
 
@@ -128,26 +128,23 @@
 
 .about-name {
   color: var(--color-01);
-  font-size: 5vw;
+  font-size: 5vh;
   padding: 5px;
   margin: 5px;
 }
 
 .about-title {
-  flex-direction: row;
   color: var(--color-05);
-  font-size: 3vw;
+  font-size: 3vh;
   text-align: center;
   padding-bottom: 15px;
 }
 
 .about-text {
-  flex: wrap;
   width: 100%;
-  height: auto;
   text-align: center;
   color: var(--color-02);
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 
