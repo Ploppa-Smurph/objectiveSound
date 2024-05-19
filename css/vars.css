@@ -1,9 +1,7 @@
-@import url('./../assets/VT323-Regular.ttf');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
     overflow: auto;
 }
@@ -20,14 +18,14 @@
 }
 
 @font-face {
-    font-family: VT323;
+    font-family: "VT323", sans-serif;
     src: 
     local("VT323"),
-    url("../assets/VT323-Regular.ttf"), 
     format("truetype");
 }
 
 body {
     background-color: var(--color-dark);
+    font-family: "VT323";
 }
 

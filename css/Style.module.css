@@ -9,8 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  margin: 0 20px;
+  padding: 1vh;
+  margin: 0 2vh;
 }
 
 .nav-logo-container  {
@@ -18,10 +18,10 @@
 }
 
 .nav-logo {
-    width: 120px;
-    height: 120px;
-    padding: 1px;
-    border-radius: 12px;
+    width: 12vh;
+    height: 12vh;
+    padding: .25vh;
+    border-radius: 1vh;
     opacity: 90
 }
 
@@ -37,10 +37,10 @@
 .nav-item {
     font-family: "VT323", sans-serif;
     list-style: none;
-    margin: 10px;
-    padding: 20px;
+    margin: 1vh;
+    padding: 1.5vh;
     color: var(--color-01);
-    font-size: 15px;
+    font-size: 2vh;
     font-weight: 400;
 }
 
@@ -62,18 +62,19 @@
   }
 
   .nav-logo {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     margin: 0;
-    padding: 5px;
-    
+    padding: .5vh; 
   }
+
   .nav-item {
-    font-size: 11px;
+    font-size: 1.5vh;
     font-weight: 400;
-    padding: 10px;
-    margin: 5px;
+    padding: 1vh;
+    margin: .5vh;
   }
+  
 }
 
 /* Hero Section */
@@ -82,8 +83,9 @@
     display: flex;
     justify-content: center;
     max-width: 90%;
-    margin: 0 auto;
-    padding-bottom: 20px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
 }
 
 .hero-video-crt {
@@ -95,7 +97,7 @@
     max-width: 100%;
     margin: 0 auto;
     opacity: 95%;
-    border-radius: 12px;    
+    border-radius: 1.2vh;    
 }
 
 @media screen and (max-width: 830px) {
@@ -105,46 +107,53 @@
 /* ABOUT Section */
 .about-container {
   display: flex;
-  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
   gap: 5%;
+  margin: 5rem 0 10rem 0;
 }
 
 .about-creator {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  flex-basis: content;
+  justify-content: space-around;
   align-items: center;
+  
 }
 
-.about-img {
-  display: flex;
-  flex-basis: 100%;
-  width: 45%;
-  border-radius: 80px;
-  margin: 1%;
+.about-img img{
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
+  border-radius: 4rem;
+  margin: 1rem;
 }
 
 .about-name {
+  display: flex;
   color: var(--color-01);
-  font-size: 5vh;
-  padding: 5px;
-  margin: 5px;
+  font-size:3rem;
+  margin-top: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 .about-title {
+  display: flex;
   color: var(--color-05);
-  font-size: 3vh;
+  font-size: 2rem;
   text-align: center;
-  padding-bottom: 15px;
+  margin-top: 1%;
+  margin-bottom: 0;
 }
 
 .about-text {
-  width: 100%;
+  display: flex;
   text-align: center;
   color: var(--color-02);
-  font-size: 2vh;
+  font-size: 1rem;
+  margin-top: 0;
+
 }
 
 
