@@ -104,7 +104,7 @@
 
 }
 
-/* ABOUT Section */
+/* About Section */
 .about-container {
   display: flex;
   justify-content: space-around;
@@ -153,9 +153,49 @@
   color: var(--color-02);
   font-size: 1rem;
   margin-top: 0;
+}
+
+/* Project Section */
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: var(--color-04);
+    color: var(--color-02);
+    margin: 2rem 2rem;
+    width: 100%;
+    
+}
+
+.project-item {
+  text-align: center;
+  padding: 2rem;
+}
+
+.project-title {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: var(--color-03);
+  font-size: 4rem;
+  margin-bottom: 0;
+  background-color: var(--color-05);
+  width: 40%;
+  padding: 1rem;
+  border-radius: 5rem;
 
 }
 
+.project-tagline {
+  color: var(--color-light);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
 
-  
+.project-description {
+  color: var(--color-01);
+  font-size: 1rem;
+}
  
