@@ -159,14 +159,13 @@
 .project-container {
     display: flex;
     justify-content: center;
-}
+  }
 
 .project-card {
     background-color: var(--color-04);
     color: var(--color-02);
     margin: 2rem 2rem;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .project-item {
