@@ -176,7 +176,6 @@
 .project-title {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
   color: var(--color-03);
   font-size: 4rem;
   margin-bottom: 0;
@@ -184,7 +183,6 @@
   width: 40%;
   padding: 1rem;
   border-radius: 5rem;
-
 }
 
 .project-tagline {
